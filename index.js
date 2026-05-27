@@ -1,11 +1,4 @@
-const _ = require('lodash');
+const fatema=require("./second");
 
-console.log(_.last([1,2,3]));
-console.log(global);
-const people = require('./people');
-console.log(people);
-setTimeout(()=>{
-    console.log('test');
-},(1000));
-console.log(__dirname);
-console.log(__filename);
+console.log("hello world",fatema)
+
